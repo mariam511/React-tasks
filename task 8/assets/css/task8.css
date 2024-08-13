@@ -1,0 +1,117 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.cards .card{
+    width: calc(90%/3);
+    border-radius: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+}  
+.card .photo{
+    position: relative;
+}
+.photo img{
+    width: 100%;
+    height: 15em;
+    border-radius: 3%;
+}  
+.card .photo .other{
+    padding-top: 5%;
+    display: flex;
+   align-items: center;
+    position: relative;
+    margin-left:5%;
+}
+.other .stars{
+    color: #FF9F20;
+    
+}
+.other .save{
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.card .cardDetails{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.card .cardDetails .courseDetails .instructor{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.instructor .profilePicture img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.instructor .profilePicture {
+    margin-right: 2%;
+}
+.courseDetails .parent{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+.cardDetails p{
+    margin-top: 4%;
+}
+.parent .lessons{
+  
+    border-right: #000 solid 1px;
+}
+.students , .lessons{
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: #F2F0F1;
+   
+
+}
+.price{
+    font-size: larger;
+    display: flex;
+}
+.price .current{
+    margin-left: 15%;
+    color: #BA2F50;
+    font-size: larger;
+}
+.card .more{
+    margin-top: 5%;
+    display: flex;
+    position: relative;
+    margin-left: 5%;
+    padding-bottom: 3%;
+}
+.more .moreDetails{
+    position: absolute;
+    right: 5%;
+}
+.by,p,.moreDetails{
+    color: #9F9FA1;
+}
+p{
+    width: 80%;
+}
