@@ -1,0 +1,66 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    margin: 20% 0;
+}
+input,select{
+    width: 100%;
+    height: 3em;
+    margin-bottom: 7%;
+    margin-right: 5%;
+    
+}
+#message{
+    padding: 3em 0;
+    margin-bottom: 3em;
+
+}
+.card{
+    margin-top: 9%;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 7%;
+    position: relative;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.icon{
+    position: absolute;
+    top:-20%;
+    left:7%;
+    display: flex;
+    justify-content: center;
+    width:60px;
+    height: 60px;
+    border-radius: 60%;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+h6{
+    color: #FF375F;
+}
+h1,h4,i{
+    color: #002856;
+}
+p{
+    color: rgba(0, 0, 0, 0.495);
+}
+form{
+    margin-top: 3em;
+    padding:7% ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button{
+    
+    width: 100%;
+    background-color: #FF375F;
+    color: white;
+    border: none;
+    height: 3em;
+    border-radius: 3%;
+}
