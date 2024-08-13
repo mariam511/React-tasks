@@ -1,0 +1,49 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    margin-left: 10%;
+    
+   
+}
+.card{
+    width: calc(100%/4);
+    border: 1px solid #F1F1F1; 
+    display: flex;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
+   
+    
+}
+.card .content{
+    margin-left: 20%;
+    position: relative;
+}
+.card .content i{
+    position: absolute;
+    top:30%
+    
+}
+.card .cardContent{
+    margin-left: 4rem;
+    position: relative;
+    
+}
+.card .cardContent h1{
+    font-size: 4rem;
+}
+.card .cardContent p{
+    color:#95999B;
+    position: absolute;
+    top: 95%;
+    width: 12rem;
+   
+    
+}
