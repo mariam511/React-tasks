@@ -1,0 +1,45 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    
+    
+}
+.card{
+    padding-left: 2rem;
+    position: relative;
+    background-color:#9778FF;
+    width:calc(100%/4);
+    margin: 2%;
+   border-radius: 1rem;
+    /* padding-bottom: 2%; */
+
+}
+
+ .card h1{
+    font-size: 3.5rem;
+    font-weight: bold; 
+    position:absolute;
+    right: 2%;
+    top: 0%; 
+   
+    color: rgba(249, 251, 252, 0.15);
+} 
+.content{
+    margin-top: 10rem;
+    color: aliceblue; 
+    width: 15rem;
+}
+.icon{
+    padding-top: 5rem;
+    position: absolute;
+    left: 2%;
+    color: white;
+    
+}
+.icon i{
+    padding-left: 2rem;
+    width: 100px;
+    height: 100px;
+}
+
