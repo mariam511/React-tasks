@@ -1,0 +1,152 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    position: relative;
+}
+
+.parent .image{
+   
+  width: 100%; 
+  height: 100%;
+   
+    
+} 
+.parent .overlay{
+ position: fixed; 
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 1; 
+  
+}
+.content{
+    text-align: center;
+    position: fixed; 
+    z-index: 3;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(240, 255, 243);
+}
+.content .main{
+    position: absolute;
+    top:10%;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    margin-top: 5%;
+    font-size: 3rem;
+    position: relative;
+}
+.content h1::after{
+    content: "";
+    position: absolute;
+    width: 3%;
+    height: 4.5%;
+    background-color: #C19F11;
+    bottom: -17%;
+    right: 48%;
+
+}
+.arrow1,.arrow2{
+    width: 3%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    margin-right: 3%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards .card{
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+    position: relative;
+    margin-right: 3%;
+}
+.card .classPhoto{
+    width: 20rem;
+    height: 12.5rem;
+    position: relative;
+
+}
+.classPhoto img {
+    width: 100%;
+    height: 100%;
+  
+}
+.classPhoto .time{
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    width: 40%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-color: #3AB64C;
+    color: white;
+}
+.card hr{
+    margin-top: 5%;
+    margin-top: 10%;
+    width: 95%;
+    
+}
+.details{
+    padding-top: 10%;
+    margin-left: 3%;
+    text-align: left;
+   
+    
+}
+.details h2{
+    color: black; 
+    margin-bottom: 7%;
+}
+.details p{
+    color: rgba(0, 0, 0, 0.674);
+}
+
+.card h4{
+    color:rgba(0, 0, 0, 0.662);
+}
+.card .num{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+.card .fee{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+
+}
+
+.arrow2{
+    margin-left: 6%;
+}
