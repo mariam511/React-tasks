@@ -1,0 +1,70 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.allTitle{
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+}
+.allTitle::after{
+    position: absolute;
+    content: "";
+    width: 3%;
+    height: 2%;
+    bottom:-15% ;
+    right: 48%;
+    background-color:#1B78D9 ;
+
+}
+.allTitle h4{
+    color: #1B78D9;
+    font-size: 1.3rem;
+}
+.allTitle h1{
+    font-size: 2rem;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.card{
+    margin-right: 2%;
+}    
+.card .image{
+    position: relative;
+}
+
+.card  .image .plus{
+    width: 12%;
+    height: 12%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:#1B78D9 ;
+    border-radius: 25%;
+    background-color: white;
+    position: absolute;
+    bottom: -5%;
+    right: 4%;
+
+   
+    transform: rotate(45deg); 
+   
+}
+.card  .image .plus i{
+    transform: rotate(45deg); 
+}
+.card .details {
+    text-align: center;
+    margin-top: 2%;
+}
+.card .details  h5{
+    color: #1B78D9;
+    margin-top: 2%;
+}
