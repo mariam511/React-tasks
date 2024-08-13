@@ -1,0 +1,112 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    display: flex;
+    position: relative;
+   justify-content: center;
+   padding-top: 3%;
+   padding-left: 0%;
+}
+.parent .content{
+    position: absolute;
+    width: 60%;
+    left: 15%;
+    
+
+}
+.parent .content h1{
+    color: #FDC236;
+    font-size: 2.3rem;
+    position: relative;
+}
+.parent .content h1 span{
+    color: #000000;
+    
+}
+.parent .content h1::after{
+    content: "";
+    position: absolute;
+    bottom:-25%;
+    left: 0;
+    width: 6rem;
+    height: 0.1rem;
+    background-color: #FDC236;
+}
+.parent .content h2{
+    color:#5E6871 ;
+}
+.parent .content p{
+    margin-top: 2%;
+    color:rgba(0, 0, 0, 0.484);
+    margin-bottom: 3%;
+}
+  
+.list{
+    display: flex;
+    margin-top: 7%;
+    width: 100%;
+
+}
+
+.ul2{
+    
+    margin-left: 10%;
+
+}
+.ul1 ,.ul2{
+    width: 100%;
+}
+
+.lis{
+    margin-bottom: 7%;
+  
+    position: relative;
+}
+i{
+    width:5%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    background-color:#FDC236 ;
+    color: white;
+    
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.li-cont{
+    margin-left: 7%;
+    display: flex;
+    color:#5e6871;
+    position: absolute;
+    top: 50%;
+   
+}
+
+.side{
+    background-image: url(../images/about\ us\ photo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:20rem;
+    height:30rem;
+    position: absolute;
+    margin-left: 95%;
+    box-shadow: 10px 10px  #FDC236;
+}
+
+button{
+    color: white;
+    background-color: #FDC236;
+    border: none;
+    padding:1%;
+    margin-top: 2%;
+   
+
+}
+
